@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MessageViewController.h
 //  XZTabBarBadge
 //
 //  Created by cao yue on 2018/4/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MessageViewController : UIViewController
 
 @end
-
