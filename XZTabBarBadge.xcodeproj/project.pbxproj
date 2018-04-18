@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EF48DBF0D03F79FA9758611 /* libPods-XZTabBarBadge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA8779DCD20C086B9D3DE51 /* libPods-XZTabBarBadge.a */; };
 		7F02B65F208709CD006FE041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B65E208709CD006FE041 /* AppDelegate.m */; };
 		7F02B665208709CD006FE041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F02B663208709CD006FE041 /* Main.storyboard */; };
 		7F02B667208709CD006FE041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F02B666208709CD006FE041 /* Assets.xcassets */; };
@@ -14,12 +15,14 @@
 		7F02B66D208709CD006FE041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B66C208709CD006FE041 /* main.m */; };
 		7F02B677208709CD006FE041 /* XZTabBarBadgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B676208709CD006FE041 /* XZTabBarBadgeTests.m */; };
 		7F02B682208709CE006FE041 /* XZTabBarBadgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B681208709CE006FE041 /* XZTabBarBadgeUITests.m */; };
-		7F02B69120870A0B006FE041 /* RedTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B69020870A0B006FE041 /* RedTabbarController.m */; };
 		7F02B69420870A34006FE041 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B69320870A34006FE041 /* HomeViewController.m */; };
 		7F02B69720870A47006FE041 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B69620870A47006FE041 /* MessageViewController.m */; };
 		7F02B69A20870A6C006FE041 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B69920870A6C006FE041 /* PictureViewController.m */; };
 		7F02B69D20870A78006FE041 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B69C20870A78006FE041 /* MyViewController.m */; };
-		7F02B6A020870C18006FE041 /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B69E20870C18006FE041 /* UITabBar+Badge.m */; };
+		7F02B6B120872A28006FE041 /* RedTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B6B020872A28006FE041 /* RedTabbarController.m */; };
+		7F02B6B520872A34006FE041 /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02B6B420872A34006FE041 /* UITabBar+Badge.m */; };
+		A6C19D7C0D9DBD2B669DE982 /* libPods-XZTabBarBadgeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F83BE500C88A5E9E1B6C59 /* libPods-XZTabBarBadgeUITests.a */; };
+		D1B476E6A8665A2BF6FE6CF3 /* libPods-XZTabBarBadgeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C67E52A54CBB10B7F5CA3090 /* libPods-XZTabBarBadgeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1790AA938B7FFB302A2E7FC9 /* Pods-XZTabBarBadgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTabBarBadgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZTabBarBadgeTests/Pods-XZTabBarBadgeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA29D2774471F8AF41FF25B /* Pods-XZTabBarBadge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTabBarBadge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZTabBarBadge/Pods-XZTabBarBadge.debug.xcconfig"; sourceTree = "<group>"; };
+		45602D54BEBF754566BD7A55 /* Pods-XZTabBarBadgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTabBarBadgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZTabBarBadgeTests/Pods-XZTabBarBadgeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EBF242AF9E3B235884475D7 /* Pods-XZTabBarBadgeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTabBarBadgeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZTabBarBadgeUITests/Pods-XZTabBarBadgeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7F02B65A208709CD006FE041 /* XZTabBarBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZTabBarBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F02B65D208709CD006FE041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F02B65E208709CD006FE041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,8 +61,6 @@
 		7F02B67D208709CE006FE041 /* XZTabBarBadgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZTabBarBadgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F02B681208709CE006FE041 /* XZTabBarBadgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZTabBarBadgeUITests.m; sourceTree = "<group>"; };
 		7F02B683208709CE006FE041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F02B68F20870A0B006FE041 /* RedTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedTabbarController.h; sourceTree = "<group>"; };
-		7F02B69020870A0B006FE041 /* RedTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedTabbarController.m; sourceTree = "<group>"; };
 		7F02B69220870A34006FE041 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		7F02B69320870A34006FE041 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		7F02B69520870A47006FE041 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
@@ -64,8 +69,15 @@
 		7F02B69920870A6C006FE041 /* PictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
 		7F02B69B20870A78006FE041 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		7F02B69C20870A78006FE041 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		7F02B69E20870C18006FE041 /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
-		7F02B69F20870C18006FE041 /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		7F02B6AF20872A28006FE041 /* RedTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedTabbarController.h; sourceTree = "<group>"; };
+		7F02B6B020872A28006FE041 /* RedTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedTabbarController.m; sourceTree = "<group>"; };
+		7F02B6B320872A34006FE041 /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		7F02B6B420872A34006FE041 /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
+		BEA8779DCD20C086B9D3DE51 /* libPods-XZTabBarBadge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZTabBarBadge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67E52A54CBB10B7F5CA3090 /* libPods-XZTabBarBadgeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZTabBarBadgeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA477CCAF181C33925A2452 /* Pods-XZTabBarBadgeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTabBarBadgeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZTabBarBadgeUITests/Pods-XZTabBarBadgeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC83AB5014EC71FB16D6446B /* Pods-XZTabBarBadge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZTabBarBadge.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZTabBarBadge/Pods-XZTabBarBadge.release.xcconfig"; sourceTree = "<group>"; };
+		F2F83BE500C88A5E9E1B6C59 /* libPods-XZTabBarBadgeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZTabBarBadgeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF48DBF0D03F79FA9758611 /* libPods-XZTabBarBadge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B476E6A8665A2BF6FE6CF3 /* libPods-XZTabBarBadgeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +101,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C19D7C0D9DBD2B669DE982 /* libPods-XZTabBarBadgeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36AB3FF3CA3D284E1AA30F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8779DCD20C086B9D3DE51 /* libPods-XZTabBarBadge.a */,
+				C67E52A54CBB10B7F5CA3090 /* libPods-XZTabBarBadgeTests.a */,
+				F2F83BE500C88A5E9E1B6C59 /* libPods-XZTabBarBadgeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F5F9357A4481783F2AF68EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CA29D2774471F8AF41FF25B /* Pods-XZTabBarBadge.debug.xcconfig */,
+				EC83AB5014EC71FB16D6446B /* Pods-XZTabBarBadge.release.xcconfig */,
+				1790AA938B7FFB302A2E7FC9 /* Pods-XZTabBarBadgeTests.debug.xcconfig */,
+				45602D54BEBF754566BD7A55 /* Pods-XZTabBarBadgeTests.release.xcconfig */,
+				CAA477CCAF181C33925A2452 /* Pods-XZTabBarBadgeUITests.debug.xcconfig */,
+				4EBF242AF9E3B235884475D7 /* Pods-XZTabBarBadgeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7F02B651208709CD006FE041 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +138,8 @@
 				7F02B675208709CD006FE041 /* XZTabBarBadgeTests */,
 				7F02B680208709CE006FE041 /* XZTabBarBadgeUITests */,
 				7F02B65B208709CD006FE041 /* Products */,
+				4F5F9357A4481783F2AF68EA /* Pods */,
+				36AB3FF3CA3D284E1AA30F01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,12 +156,8 @@
 		7F02B65C208709CD006FE041 /* XZTabBarBadge */ = {
 			isa = PBXGroup;
 			children = (
-				7F02B69F20870C18006FE041 /* UITabBar+Badge.h */,
-				7F02B69E20870C18006FE041 /* UITabBar+Badge.m */,
 				7F02B65D208709CD006FE041 /* AppDelegate.h */,
 				7F02B65E208709CD006FE041 /* AppDelegate.m */,
-				7F02B68F20870A0B006FE041 /* RedTabbarController.h */,
-				7F02B69020870A0B006FE041 /* RedTabbarController.m */,
 				7F02B69220870A34006FE041 /* HomeViewController.h */,
 				7F02B69320870A34006FE041 /* HomeViewController.m */,
 				7F02B69520870A47006FE041 /* MessageViewController.h */,
@@ -130,6 +166,8 @@
 				7F02B69920870A6C006FE041 /* PictureViewController.m */,
 				7F02B69B20870A78006FE041 /* MyViewController.h */,
 				7F02B69C20870A78006FE041 /* MyViewController.m */,
+				7F02B6B220872A34006FE041 /* Category */,
+				7F02B6AE20872A28006FE041 /* Base */,
 				7F02B663208709CD006FE041 /* Main.storyboard */,
 				7F02B666208709CD006FE041 /* Assets.xcassets */,
 				7F02B668208709CD006FE041 /* LaunchScreen.storyboard */,
@@ -157,6 +195,24 @@
 			path = XZTabBarBadgeUITests;
 			sourceTree = "<group>";
 		};
+		7F02B6AE20872A28006FE041 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7F02B6AF20872A28006FE041 /* RedTabbarController.h */,
+				7F02B6B020872A28006FE041 /* RedTabbarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7F02B6B220872A34006FE041 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7F02B6B320872A34006FE041 /* UITabBar+Badge.h */,
+				7F02B6B420872A34006FE041 /* UITabBar+Badge.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F02B686208709CE006FE041 /* Build configuration list for PBXNativeTarget "XZTabBarBadge" */;
 			buildPhases = (
+				6F54E28DF83D75799878BB6B /* [CP] Check Pods Manifest.lock */,
 				7F02B656208709CD006FE041 /* Sources */,
 				7F02B657208709CD006FE041 /* Frameworks */,
 				7F02B658208709CD006FE041 /* Resources */,
@@ -181,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F02B689208709CE006FE041 /* Build configuration list for PBXNativeTarget "XZTabBarBadgeTests" */;
 			buildPhases = (
+				10C7AC41BE984BE761D81B91 /* [CP] Check Pods Manifest.lock */,
 				7F02B66E208709CD006FE041 /* Sources */,
 				7F02B66F208709CD006FE041 /* Frameworks */,
 				7F02B670208709CD006FE041 /* Resources */,
@@ -199,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F02B68C208709CE006FE041 /* Build configuration list for PBXNativeTarget "XZTabBarBadgeUITests" */;
 			buildPhases = (
+				B9B41B8F2B7EA2988FDEA197 /* [CP] Check Pods Manifest.lock */,
 				7F02B679208709CE006FE041 /* Sources */,
 				7F02B67A208709CE006FE041 /* Frameworks */,
 				7F02B67B208709CE006FE041 /* Resources */,
@@ -285,19 +344,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10C7AC41BE984BE761D81B91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZTabBarBadgeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F54E28DF83D75799878BB6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZTabBarBadge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B41B8F2B7EA2988FDEA197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZTabBarBadgeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F02B656208709CD006FE041 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F02B69720870A47006FE041 /* MessageViewController.m in Sources */,
+				7F02B6B120872A28006FE041 /* RedTabbarController.m in Sources */,
 				7F02B69D20870A78006FE041 /* MyViewController.m in Sources */,
+				7F02B6B520872A34006FE041 /* UITabBar+Badge.m in Sources */,
 				7F02B66D208709CD006FE041 /* main.m in Sources */,
-				7F02B6A020870C18006FE041 /* UITabBar+Badge.m in Sources */,
 				7F02B69A20870A6C006FE041 /* PictureViewController.m in Sources */,
 				7F02B65F208709CD006FE041 /* AppDelegate.m in Sources */,
 				7F02B69420870A34006FE041 /* HomeViewController.m in Sources */,
-				7F02B69120870A0B006FE041 /* RedTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +574,7 @@
 		};
 		7F02B687208709CE006FE041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA29D2774471F8AF41FF25B /* Pods-XZTabBarBadge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -473,6 +590,7 @@
 		};
 		7F02B688208709CE006FE041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC83AB5014EC71FB16D6446B /* Pods-XZTabBarBadge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -488,6 +606,7 @@
 		};
 		7F02B68A208709CE006FE041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1790AA938B7FFB302A2E7FC9 /* Pods-XZTabBarBadgeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +621,7 @@
 		};
 		7F02B68B208709CE006FE041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45602D54BEBF754566BD7A55 /* Pods-XZTabBarBadgeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +636,7 @@
 		};
 		7F02B68D208709CE006FE041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA477CCAF181C33925A2452 /* Pods-XZTabBarBadgeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XZTabBarBadgeUITests/Info.plist;
@@ -529,6 +650,7 @@
 		};
 		7F02B68E208709CE006FE041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBF242AF9E3B235884475D7 /* Pods-XZTabBarBadgeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XZTabBarBadgeUITests/Info.plist;
