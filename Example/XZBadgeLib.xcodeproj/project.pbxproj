@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3943F0153344F49E872BB0EE /* Pods-XZBadgeLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZBadgeLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZBadgeLib_Example/Pods-XZBadgeLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3FF75B763814CDAEC2B4AD88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3FF75B763814CDAEC2B4AD88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44352F5024C8B351B3C878E1 /* Pods-XZBadgeLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZBadgeLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZBadgeLib_Tests/Pods-XZBadgeLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4659905F17764F937FC93AA1 /* Pods_XZBadgeLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZBadgeLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BC7B9FA26F3D01FF7DFAA8 /* Pods-XZBadgeLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZBadgeLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZBadgeLib_Example/Pods-XZBadgeLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B16175DDC6A3B597C3B61795 /* Pods-XZBadgeLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZBadgeLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZBadgeLib_Tests/Pods-XZBadgeLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B41B612CBF9E136F9561E122 /* XZBadgeLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XZBadgeLib.podspec; path = ../XZBadgeLib.podspec; sourceTree = "<group>"; };
-		CFDF17F29ECC09A3A2995443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B41B612CBF9E136F9561E122 /* XZBadgeLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XZBadgeLib.podspec; path = ../XZBadgeLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFDF17F29ECC09A3A2995443 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PuffBaby1130;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -504,12 +507,15 @@
 			baseConfigurationReference = 3943F0153344F49E872BB0EE /* Pods-XZBadgeLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XZBadgeLib/XZBadgeLib-Prefix.pch";
 				INFOPLIST_FILE = "XZBadgeLib/XZBadgeLib-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -519,12 +525,15 @@
 			baseConfigurationReference = 50BC7B9FA26F3D01FF7DFAA8 /* Pods-XZBadgeLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XZBadgeLib/XZBadgeLib-Prefix.pch";
 				INFOPLIST_FILE = "XZBadgeLib/XZBadgeLib-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,0 +1,22 @@
+{
+  "name": "XZBadgeLib",
+  "version": "0.1.0",
+  "summary": "A short description of XZBadgeLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PuffBaby1130/XZBadgeLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PuffBaby1130": "18210291429@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PuffBaby1130/XZBadgeLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XZBadgeLib/Classes/**/*"
+}

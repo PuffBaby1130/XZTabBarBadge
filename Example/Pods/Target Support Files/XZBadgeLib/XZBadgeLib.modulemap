@@ -1,0 +1,6 @@
+framework module XZBadgeLib {
+  umbrella header "XZBadgeLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
